@@ -1,0 +1,277 @@
+﻿/********************/
+/*		Colors		*/
+/********************/
+#navigation a:link, a:visited
+{
+	color: #D4D4D4;
+}
+html, body
+{
+	background-color: #242424;
+	color: #D4D4D4;
+}
+#header
+{
+	/*  Created by ColorZilla's gradient generator http://www.colorzilla.com/gradient-editor/
+		Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d4a00+0,072800+100 */
+background: rgb(13,74,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(13,74,0,1) 0%, rgba(7,40,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(13,74,0,1)), color-stop(100%,rgba(7,40,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(13,74,0,1) 0%,rgba(7,40,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(13,74,0,1) 0%,rgba(7,40,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(13,74,0,1) 0%,rgba(7,40,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(13,74,0,1) 0%,rgba(7,40,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d4a00', endColorstr='#072800',GradientType=0 ); /* IE6-9 */
+
+}
+a:visited, a:link
+{
+	color: #E1E1E1;
+}
+a:hover
+{
+	color: #CCCCCC;
+}
+.comment, .session, #addSessionDiv, #sessionSearch, #friends, #profileLeft, #participants
+{
+	background-color: #333333;
+	border: thin solid #202020;
+	padding: 5px;
+}
+#navigation a:hover, a:active
+{
+	color: #EEEEEE;
+}
+/********************/
+/*		Global?		*/
+/********************/
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+.clearDiv
+{
+	clear: both;
+}
+#wrapper
+{
+	margin: auto;
+	width: 90%;
+	min-width: 800px;
+	
+}
+textarea
+{
+	width: 350px;
+	height: 10em;
+}
+/********************/
+/*		Header		*/
+/********************/
+#header
+{
+	margin: 0px auto;
+	padding: 10px;
+	width: 100%;
+	height: 40px;
+	min-width: 800px;
+}
+#header p, #login, #logout
+{
+	display: inline-block;
+	margin: 0px;
+}
+#header form
+{
+	display: inline-block;
+	padding: 0px;
+	margin: auto;
+}
+#login, #logout
+{
+	float: right;
+	display: inline-block;	
+}
+#siteTitle
+{
+	
+}
+#logo
+{
+	height: 30px;
+	margin: auto;
+}
+/************************/
+/*		Navigation		*/
+/************************/
+#navigation
+{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+#navigation li
+{
+	display: inline-block;
+}
+#navigation ul
+{
+	margin: 0px;
+	padding: 5px 0px;
+}
+#navigation a:link, a:visited
+{
+	display: block;
+	padding: 5px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/************************/
+/*		Register		*/
+/************************/
+.registerInput
+{
+	width: 200px;
+}
+/****************************/
+/*		Search Session		*/
+/****************************/
+.searchSessionWidth
+{
+	width: 350px;
+}
+#sessionSearch
+{
+	display: inline-block;
+}
+/****************************/
+/*		Create Session		*/
+/****************************/
+.addSessionfullWidth
+{
+	width: 350px;
+}
+#addSession input
+{
+	margin: 1px;
+}
+#addSession textarea
+{
+	margin: 1px;
+	height: 10em;
+}
+/****************************/
+/*		Edit Session		*/
+/****************************/
+.editWidth
+{
+	width: 350px;
+}
+#editSession input
+{
+	margin: 1px;
+}
+#editSession textarea
+{
+	margin: 1px;
+	height: 10em;
+}
+
+/********************/
+/*		Comment		*/
+/********************/
+.comment
+{
+	/*border: 1px black solid;*/
+	padding: 5px;
+	margin: 5px;
+}
+/********************/
+/*		Session		*/
+/********************/
+#addSessionDiv
+{
+	float: right;
+	width: 29%;
+	padding: 5px;
+}
+.session
+{
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+#sessions
+{
+	display: inline-block;
+	width: 60%;
+	padding: 0px 4%;
+}
+#participants
+{
+	float: right;
+	padding: 5px;
+	margin: 10px;
+	min-width: 100px;
+}
+#sessionDetails
+{
+	border: thin black solid;
+}
+/********************/
+/*		Footer		*/
+/********************/
+#footer
+{
+	padding: 10px 10% 10px 10%;
+	margin-top: 10px;
+	background-color: #171717;
+}
+/********************/
+/*		Home		*/
+/********************/
+#register
+{
+	float: right;	
+}
+#welcomeImageDiv
+{
+	width: 60%;	
+}
+#welcomeImage
+{
+	width: 100%;
+}
+.activity
+{
+	background-color: #333333;
+	padding: 5px;
+	margin: 5px;
+}
+/********************/
+/*		User		*/
+/********************/
+#friends
+{
+	float: right;
+	padding: 5px;
+	margin: 10px;
+	min-width: 100px;
+}
+#profileLeft
+{
+	overflow: hidden;
+}
+/********************/
+/*		Help		*/
+/********************/
+#helpDiv img
+{
+	width: 60%;
+	margin: 10px;
+}
